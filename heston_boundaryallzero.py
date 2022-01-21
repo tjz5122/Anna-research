@@ -28,7 +28,7 @@ K = 20    #strike price
 T = 1
 L = 1
 Ns = 1000
-Nv = 1000 #space or stock price interval(less than sqrt(Nt))
+Nv = 500 #space or stock price interval(less than sqrt(Nt))
 Nt = 400000 #time
 
 ds = (max_price - min_price)/Ns #1
